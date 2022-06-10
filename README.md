@@ -1,2 +1,3 @@
-# dio-desafio-github-primeiro-repositorio
-Reporitório criado para o Desafio do Projeto.
+# Desafio da DIO de Criação do Primeiro Repositório
+
+Repositório criado para servir como anotações e amostra de evolução no decorrer das minhas aulas de programação.
