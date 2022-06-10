@@ -1,0 +1,37 @@
+body{
+    background-image: url(assets/space.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;}
+/* no-repeat para evitar que a imagem se repita, cover para a imagem cobrir toda a página, 
+fixed para fazer com que a imagem não se mexa ao rolar a tela e center para centraliza-la */
+
+h1{
+    color:white;
+}
+
+#principal{
+    color: orange;
+}
+
+#alo{
+    color: red;
+    background-color: black;
+}
+
+#paragrafos{
+    background-image: url(assets/galaxy.png);
+    background-position: center;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+.verde{
+    color: green;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}

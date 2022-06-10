@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(231, 217, 156);
+}
+#card{
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:auto;
+    margin-top: 30%;
+}
+
+
+
+#container{
+    font-family: 'Merriweather', serif;
+    padding: 1px 20px;
+}
+#instagram{
+    list-style-image: url(./assets/Insta.png);
+}
+#twitter{
+    list-style-image: url(./assets/Twitter.png);
+}
+#youtube{
+    list-style-image: url(./assets/Youtube.png);
+}

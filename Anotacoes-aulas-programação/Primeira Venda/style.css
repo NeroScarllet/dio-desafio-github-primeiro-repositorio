@@ -1,0 +1,50 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #E5E7E6;
+}
+header{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    display: inline-block;
+    width: 100%;
+    height:100%;
+}
+.container{
+    text-align: center;
+    font-size: 30px;
+    
+}
+a:link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    margin: 30px;
+
+}
+.barra{
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  .imagem {
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    margin-left: 40%
+  }

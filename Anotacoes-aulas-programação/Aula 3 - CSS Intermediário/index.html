@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Intermediário</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- muito importante para deixar o site responsivo para outros aparelhos -->
+</head>
+<body>
+    <h1>Texto Qualquer</h1>
+
+    <div>Texto em uma div
+        <div style="background-color: blue; width: 500px;">dentro de outra div</div>
+        <div> e de outra também <img src="https://png.pngtree.com/png-vector/20201224/ourmid/pngtree-mbe-style-small-picture-png-image_2625623.jpg" height="15px"; ></div>
+    </div>
+        <!-- Display block: faz com que o elemento cubra a linha inteira, forçando a pular de linha
+         Display inline: faz com que o elemento fique forçadamente na linha, tirando certas características pra isso
+         Display-inline-block: faz com que o elemento fique na linha, mas mantendo todas as suas características -->
+
+    <br>
+
+    <div style="color: yellow; background-color: blue; width: 300px; height:100px; overflow:auto ;">Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsums</div>
+        <!-- Overflow: usado para configurar partes que sairam pra fora do elemento, podendo esconde-las, adicionar  um scroll e etc... -->
+
+    <br>        
+     
+    <div style="width:50px; height:50px; background-color: red; position:relative;"></div>
+        <!-- position:relative: permite que você possa usar top, right, bottom e left para posicionar onde quiser,
+        mas apenas mudando sua posição visualmente, para o sistema aquilo ainda está lá-->
+
+    <div style="width:50px; height:50px; background-color: green; position: static;"></div>
+        <!-- position:static: apenas indica que a posição é estática e única. -->
+    
+    <div style="width:50px; height:50px; background-color: blue; position: fixed; right: 0px; bottom: 500px;"></div>
+        <!-- position:fixed: deixa o elemento fixado na tela, mesmo se você der scroll -->
+
+    <div style="width:50px; height:50px; background-color: yellow; position: absolute"></div>
+        <!-- position:absolute: mesma coisa que o relative, mas indicando para o sistema de que aquilo 
+        não está mais lá, também se baseando no elemento pai -->
+        
+    <div style="width:100%; height:50px; background-color: orange; position: sticky; top: 0;"></div>
+        <!-- position:sticky: faz com que o elemento grude em alguma parte da tela quando for dar scroll -->
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+     <p>
+        <img id="i1" src="https://png.pngtree.com/png-vector/20201224/ourmid/pngtree-mbe-style-small-picture-png-image_2625623.jpg">
+
+         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+         Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+
+         <style>
+             #i1{
+                 height: 100px;
+                 float: left;
+             }
+             /* float: usado para fazer os elementos "flutuarem" ao lado de algo, 
+             funcionando de forma similar ao inline */
+             
+         </style>
+     </p>       
+
+
+<style>
+    .card{
+        position: relative;
+        float:left;
+        text-align: center;
+        width: 400px;
+        height:200px;
+        border: 2px solid green;
+    }
+    .c1{
+        background-color:red;
+        line-height:200px;
+    }
+    .c2{
+        background-color: blue;
+        color: white;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    .card2{
+        clear: left;
+        float: left;
+        border: 2px solid green;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    /* Essas são as 3 formas de alinhar algo */
+</style>
+
+<div class="card">
+    <div class="c1">
+        Igor Oliveira
+    </div>
+</div>
+
+<div class="card">
+    <div class="c2">
+        Igor Oliveira
+    </div>
+</div>
+<div class="card2">
+    <div>
+        Igor Oliveira
+    </div>
+</div>
+
+
+</html>

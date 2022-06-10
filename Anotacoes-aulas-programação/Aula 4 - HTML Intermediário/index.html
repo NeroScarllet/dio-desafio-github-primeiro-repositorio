@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form method="get" action="/cadastro">
+
+        <input type="text" name="email">
+        <input type="submit" name="nome">
+        <input type="checkbox" name="curso" value="React Native">React Native<br>
+        <input type="radio" name="genero" value="m">Masculino
+        <select name="estadao">
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+        </select>
+        <!-- Form get: o tipo get manda os dados fornecidos para a url, assim como um vídeo no
+        youtube por exemplo.
+        Action: para indicar o formato da url para definir para onde os dados irão. 
+        Input type: text é para inserir um texto, submit para colocar um botão de envio, checkbox
+        para criar uma caixinha de preencher e radio para criar uma bolinha de preenchimento único.
+        Select: usado para criar um scroll de opções para o usuário escolher-->
+    </form>
+    <br>
+    <form method="post" action="/cadastro">
+
+        <input type="text" name="email" value="Email">
+        <input type="password" name="senha" value="Senha">
+        <textarea name="texto"></textarea><br>
+        <input type="reset" value="Limpar">
+        <!-- Form post: usado para esconder os dados enviados pelo formulário.
+        Input type: password servindo para esconder o texto que está sendo escrito, reset para
+        criar um botão de limpar todos os dados.
+        Textarea: usado para criar um campo de texto, muito usado para emails ou comentários. 
+        Value: para dar algum valor e significado para o input -->
+
+    </form>
+    <h1>Tags Semântica</h1>
+    <header>Cabeçario</header>
+    <nav>Navegação</nav>
+    <section>Seção</section>
+    <article>Artigo</article>
+    <footer>Rodapé</footer>
+    <!-- Todas essas podendo ser usadas para substituir divs, facilitando assim a navegação
+    pelo código, e também o trabalho do Google -->
+</body>
+</html>
